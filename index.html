@@ -1,24 +1,158 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="CSS/styles.css">
-    
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" />
 
-    <title>Hello, world!</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome -->
+
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://kit.fontawesome.com/da4058f8fb.js" crossorigin="anonymous"></script>
+
+    <title>Parallax Daily Challenge!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container-fluid">
+      <!-- navbar start -->
+
+      <div class="row">
+        <nav class="col navbar navbar-expand-lg navbar-light fixed-top">
+          <a class="navbar-brand" href="#">Roadtrip</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#trip1">Trip 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#trip2">Trip 2</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Dropdown link
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col jumbo1 jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">This is Road Trip</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="trip1">
+        <div class="col jumbo2 jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <h2>10.10.2021</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+              repellat dolores quisquam error saepe vel ab corrupti natus eaque
+              aperiam doloribus veniam nam atque, possimus molestiae incidunt
+              voluptatibus dignissimos dolor vitae neque fugit quod. Hic
+              eligendi eum eveniet, earum in aut maiores omnis? Laudantium
+              velit, officia assumenda tempore vel maxime.
+            </p>
+            <button class="btn w-40">
+              <a href="#">Learn More</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="trip2">
+        <div class="col jumbo3 jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <h2>10.11.2021</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+              consectetur nemo. Harum id eos dicta! Sunt delectus minus,
+              molestiae perferendis blanditiis illo enim cum reiciendis?
+            </p>
+            <button class="btn w-40">
+              <a href="#">Learn More</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row footer">
+        <div class="col-6 col-md-6 col-lg-12 smlinks text-center">
+          <h3>Contact</h3>
+          <a href="#" target="_blank"><i class="fab fa-facebook-f circle"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter circle"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram circle"></i></a>
+          <p>Created by Nino Jesus Aquino &copy; 2021</p>
+        </div>
+      </div>
+
+
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
