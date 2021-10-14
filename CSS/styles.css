@@ -39,25 +39,21 @@ p {
 .jumbo2 .container {
   background: rgba(0, 0, 0, 0.24);
   padding: 150px;
-  margin-top: 200px !important;
 }
 
 .jumbo3 .container {
   background: rgba(0, 0, 0, 0.24);
   padding: 150px;
-  margin-top: 200px !important;
 }
 
 .jumbo4 .container {
   background: rgba(0, 0, 0, 0.24);
   padding: 150px;
-  margin-top: 200px !important;
 }
 
 .jumbo5 .container {
     background: rgba(0, 0, 0, 0.24);
     padding: 150px;
-    margin-top: 200px !important;
   }
 
 .container p {
@@ -129,7 +125,7 @@ p {
 
 .jumbotron .btn:hover {
   cursor: pointer;
-  border: 3px solid #7bafd4;
+  border: 3px solid white;
 }
 
 .jumbotron .btn a {
